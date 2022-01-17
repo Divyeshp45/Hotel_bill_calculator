@@ -1,0 +1,7 @@
+print("WELCOME TO CALCULATE YOUR BILL AMOUNT TO BE PAID /-")
+bill_amount=input("Enter the total amount of bill ")
+tip_amount=input("Enter the amount of tip you want to give ")
+new_amount= int(bill_amount) - int(tip_amount)
+no_people=input("enter number of people paying  ")
+final_amount= round(new_amount/int(no_people),2)
+print(f"Amount to be paid by Each person is {final_amount}/-")
